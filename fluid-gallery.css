@@ -1,125 +1,159 @@
 .container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    padding: 30px 50px;
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  padding: 30px 50px;
 }
 
 .gallery-container h1 {
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
 }
 
 .gallery-container p.page-description {
-    text-align: center;
-    margin: 25px auto;
-    font-size: 18px;
-    color: #999;
+  text-align: center;
+  margin: 25px auto;
+  font-size: 18px;
+  color: #999;
 }
 
 .tz-gallery {
-    padding: 40px;
+  padding: 40px;
 }
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
-    padding: 2px;
+  padding: 2px;
 }
 
 .tz-gallery .lightbox img {
-    width: 100%;
-    border-radius: 0;
-    position: relative;
+  width: 100%;
+  border-radius: 0;
+  position: relative;
 }
 
 .tz-gallery .lightbox:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    opacity: 0;
-    color: #fff;
-    font-size: 26px;
-    font-family: 'Glyphicons Halflings';
-    content: '\e003';
-    pointer-events: none;
-    z-index: 9000;
-    transition: 0.4s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  opacity: 0;
+  color: #fff;
+  font-size: 26px;
+  font-family: "Glyphicons Halflings";
+  content: "\e003";
+  pointer-events: none;
+  z-index: 9000;
+  transition: 0.4s;
 }
 
-
 .tz-gallery .lightbox:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-color: rgba(46, 132, 206, 0.7);
-    content: '';
-    transition: 0.4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(46, 132, 206, 0.7);
+  content: "";
+  transition: 0.4s;
 }
 
 .tz-gallery .lightbox:hover:after,
 .tz-gallery .lightbox:hover:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .baguetteBox-button {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-}
-
-
-
-
-.degrade {
-    background-image: linear-gradient(to bottom, #ff0077, #692c7e);
-    color: black;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+@media (max-width: 768px) {
+  body {
+    padding: 0;
   }
-
+}
 
 /* foto de fundo da pagina contato.html */
 #bg-quote1 {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(tatto.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(tatto.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
 }
 
 #bg-quote {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 #video-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .content {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
-
-  @media (min-width: 400px) {
-    #bg-quote {
-      background-attachment: fixed;
-    }
+@media (min-width: 400px) {
+  #bg-quote {
+    background-attachment: fixed;
   }
+}
+
+/* Paleta de cores typografia*/
+.text-darkBlue {
+  color: #14213d;
+}
+
+.text-orange {
+  color: #fca311;
+}
+
+.text-gray {
+  color: #e5e5e5;
+}
+
+.text-pink {
+  color: #ff0080;
+}
+
+/* Paleta de cores background*/
+.bg-darkBlue {
+  background-color: #14213d;
+}
+
+.bg-orange {
+  background-color: #fca311;
+}
+
+.bg-gray {
+  background-color: #e5e5e5;
+}
+
+.bg-pink {
+  color: #ff0080;
+}
+
+.degrade {
+  background-image: linear-gradient(to left, #fca311, #ff0080);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-degrade {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #14213d 0%, #fca311 100%);
+}
