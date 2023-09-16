@@ -23,13 +23,63 @@
 
 <body>
 
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <img src="Group 7.svg" style="height: 60px;" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
     <section id="bg-quote1" class="container-fluid d-flex align-items-center">
         <div class="container text-center">
             <h1 class="display-1 degrade text-center">Jessica Marquez <br> Design de unhas e Tatuadora</h1>
             <p class="lead text-white">
                 Sou uma designer de unhas e tatuadora especializada em criar designs únicos e personalizados.
             </p>
-            <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white" href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em contato</a></button>
+            <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white"
+                    href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em
+                    contato</a></button>
         </div>
     </section>
 
@@ -50,7 +100,9 @@
                 <p class="lead text-white mt-5 pt-5">
                     Sou uma designer de unhas e tatuadora especializada em criar designs únicos e personalizados.
                 </p>
-                <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white" href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em contato</a></button>
+                <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white"
+                        href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em
+                        contato</a></button>
 
             </div>
         </div>
@@ -71,7 +123,9 @@
                 <p class="lead text-white mt-5 pt-5">
                     Sou uma designer de unhas e tatuadora especializada em criar designs únicos e personalizados.
                 </p>
-                <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white" href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em contato</a></button>
+                <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white"
+                        href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em
+                        contato</a></button>
 
             </div>
         </div>
@@ -265,6 +319,21 @@
             </div>
         </div>
     </section>
+
+    <section class="container-fluid">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam beatae id nam voluptas similique
+                sint ipsa corporis aperiam. Quas molestiae sequi repellendus enim temporibus ipsam reprehenderit magni
+                repudiandae nemo voluptatibus.</p>
+
+        </div>
+
+    </section>
+
+    <footer class="text-center bg-dark py-3">
+        <p class="text-white">© 2023 <strong>Studio Marquez</strong> Todos os direitos reservados</p>
+    </footer>
 
     <!-- efeito galeria-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
