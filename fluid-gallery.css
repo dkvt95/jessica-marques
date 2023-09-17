@@ -80,7 +80,7 @@
 /* foto de fundo da pagina contato.html */
 #bg-quote1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(tatto.jpg);
+    url(assets/images/bghome.webp);
   background-position: center center;
   background-size: cover;
   height: 600px;
@@ -155,5 +155,5 @@
 
 .bg-degrade {
   background-color: #fbab7e;
-  background-image: linear-gradient(62deg, #14213d 0%, #fca311 100%);
+  background-image: linear-gradient(62deg, #14213d 0%, #000000 100%);
 }
