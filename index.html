@@ -23,39 +23,38 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tatuagens</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Unhas</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre mim</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">LOGO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tatuagens">Tatuagens</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#unhas">Unhas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre mim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
 
     <section id="bg-quote" class="container-fluid d-flex align-items-center">
-        <div class="container text-center">
+        <div id="home" class="container text-center">
             <h1 class="display-1 degrade text-center"><strong>Studio Marquez</strong> <br> Unhas e Tatuagens com Estilo
                 e Personalidade</h1>
             <p class="lead text-white">
@@ -63,7 +62,7 @@
                 personalizados.
             </p>
             <button type="button" class="btn bg-darkBlue mb-5"><a class="text-decoration-none text-white"
-                    href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em
+                    href="https://api.whatsapp.com/send?phone=5511966528632" target="_blank">Entre em
                     contato</a></button>
         </div>
     </section>
@@ -73,7 +72,7 @@
 
 
 
-    <section class="container-fluid bg-darkBlue text-white">
+    <section id="tatuagens" class="container-fluid bg-darkBlue text-white">
 
         <div class="container">
             <h2 class="display-1 degrade">Conheça o meu trabalho como Tatuadora</h2>
@@ -146,7 +145,7 @@
 
 
 
-    <section class="container-fluid bg-black text-white">
+    <section id="unhas" class="container-fluid bg-black text-white">
         <div class="container">
 
             <h2 class="display-1 degrade">Conheça o meu trabalho como extensionista de unhas</h2>
@@ -228,7 +227,7 @@
 
 
 
-    <section class="container-fluid bg-degrade">
+    <section id="sobre" class="container-fluid bg-degrade">
 
         <div>
             <h2 class="display-1 degrade text-center">Sobre mim</h2>
@@ -299,27 +298,7 @@
 
 
     <section id="bg-quote-video" class="container-fluid d-flex align-items-center">
-        <div class="container text-center">
-            <video autoplay muted loop id="video-bg">
-                <source src="tattoo1.mp4" type="video/mp4">
-                <!-- Fallback para navegadores que não suportam o formato do vídeo -->
-                Your browser does not support the video tag.
-            </video>
-            <div class="content">
-                <h2 class="display-1 degrade text-center my-5 py-5">Entre em contato comigo</h2>
-                <p class="lead text-white mt-5 pt-5">
-                    Sou uma designer de unhas e tatuadora especializada em criar designs únicos e personalizados.
-                </p>
-                <button type="button" class="btn btn-secondary mb-5"><a class="text-decoration-none text-white"
-                        href="https://api.whatsapp.com/send?phone=5511939275748" target="_blank">Entre em
-                        contato</a></button>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="bg-quote-video" class="container-fluid d-flex align-items-center">
-        <div class="container text-center">
+        <div id="contato" class="container text-center">
             <video autoplay muted loop id="video-bg">
                 <source src="video2.mp4" type="video/mp4">
                 <!-- Fallback para navegadores que não suportam o formato do vídeo -->
@@ -337,6 +316,8 @@
             </div>
         </div>
     </section>
+
+
 
 
 
