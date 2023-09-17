@@ -1,29 +1,9 @@
-.container.gallery-container {
-  background-color: #fff;
-  color: #35373a;
-  min-height: 100vh;
-  padding: 30px 50px;
-}
-
-.gallery-container h1 {
-  text-align: center;
-  margin-top: 50px;
-  font-family: "Droid Sans", sans-serif;
-  font-weight: bold;
-}
-
-.gallery-container p.page-description {
-  text-align: center;
-  margin: 25px auto;
-  font-size: 18px;
-  color: #999;
-}
-
+/* Configuração da galeria */
 .tz-gallery {
-  padding: 40px;
+  padding: 15px;
 }
 
-/* Override bootstrap column paddings */
+/* Override bootstrap column paddings */    
 .tz-gallery .row > div {
   padding: 2px;
 }
@@ -78,15 +58,21 @@
 }
 
 /* foto de fundo da pagina contato.html */
-#bg-quote1 {
+#bg-quote {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(assets/images/bghome.webp);
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   height: 600px;
 }
 
-#bg-quote {
+@media (min-width: 400px) {
+  #bg-quote {
+    background-attachment: fixed;
+  }
+}
+
+#bg-quote-video {
   position: relative;
   overflow: hidden;
 }
@@ -105,11 +91,7 @@
   z-index: 1;
 }
 
-@media (min-width: 400px) {
-  #bg-quote {
-    background-attachment: fixed;
-  }
-}
+
 
 /* Paleta de cores typografia*/
 .text-darkBlue {
