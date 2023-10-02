@@ -1,3 +1,19 @@
+/* barra de navegação personalizada */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(to bottom, #fca311, #ff0080);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid #ff0080;
+}
+
+
 /* Configuração da galeria */
 .tz-gallery {
   padding: 15px;
