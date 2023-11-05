@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-/* foto de fundo da pagina contato.html */
+/* foto de fundo inicial Studio Marquez */
 #bg-quote {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(assets/images/bghome.webp);
@@ -88,6 +88,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+/* video de fundo da parte entre em contato */
 #bg-quote-video {
   position: relative;
   overflow: hidden;
@@ -106,8 +107,6 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   z-index: 1;
 }
-
-
 
 /* Paleta de cores typografia*/
 .text-darkBlue {
